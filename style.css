@@ -1,0 +1,125 @@
+/* Styling the body of the page */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Styling the top most part of the page */
+header {
+    background: #333;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+    font-family: Cambria, serf;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    padding: 0;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 5px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/* Styling the hero section of the page */
+#hero {
+    background: #dedcdc;
+    padding: 2em 0;
+    text-align: center;
+}
+
+#hero img {
+    border-radius: 50%;
+    width: 200px;
+}
+
+#hero p {
+    font-size: 1.2em;
+}
+
+#hero .btn {
+    background: #f31818;
+    color: #fff;
+    padding: 0.3em 1.3em;
+    border-radius: 7px;
+    text-decoration: none;
+}
+
+/* Styling the main part of the page */
+section {
+    padding: 2em 0;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+}
+
+#name, #email, #subject{
+    width: 45%;
+    height: 34px;
+    border-radius: 10px;
+    border: 1px solid #655f5f;
+}
+
+#message{
+    height: 400px;
+}
+
+/* #submit{
+    background: #f31818;
+    color: white;
+    width: 14%;
+    height: 30px;
+    border-radius: 10px;
+} */
+
+
+/* Styling the footer of the page */
+footer {
+    background: #333;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+}
+
+footer nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer nav ul li {
+    display: inline;
+    margin: 0 5px;
+}
+
+footer nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer .social-media a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
